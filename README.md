@@ -7,7 +7,7 @@ Today I Learned
   
   * [Garbage Collection Basics](./Java/가비지컬렉션_기초.md)
   * [Garbage Collection Advanced](./Java/가비지컬렉션_고급.md)
-  * [Garbage Collection Selection Guide](./Java/가비지컬렉션_선택_md)
+  * [Garbage Collection Selection Guide](./Java/가비지컬렉션_선택.md)
 
 ## MySQL
 
