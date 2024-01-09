@@ -35,3 +35,14 @@ Today I Learned
   * [UPDATE Optimization](./MySQL/UPDATE_최적화.md)
   * [성능 Tip](./MySQL/성능_TIP.md)
   * [쿼리 실행 계획](./MySQL/쿼리실행계획_분석법.md)
+
+
+## DDD
+
+* 도메인 주도 설계 첫걸음
+
+   * [전략적 설계](./DDD/도메인주도설계첫걸음/전략적설계.md)
+   * [전술적 설계 - 간단한 비즈니스 로직](./DDD/도메인주도설계첫걸음/simple_business_logic.md)
+   * [전술적 설계 - 복잡한 비즈니스 로직](./DDD/도메인주도설계첫걸음/complex_business_logic.md)
+   * [전술적 설계 - 시간 차원의 모델링](./DDD/도메인주도설계첫걸음/time_dimension.md)
+   * [전술적 설계 - 아키텍처 패턴](./DDD/도메인주도설계첫걸음/architecture.md)
