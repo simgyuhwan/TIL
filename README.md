@@ -8,6 +8,10 @@ Today I Learned
   * [Garbage Collection Basics](./Java/가비지컬렉션_기초.md)
   * [Garbage Collection Advanced](./Java/가비지컬렉션_고급.md)
   * [Garbage Collection Selection Guide](./Java/가비지컬렉션_선택.md)
+  * [스트림이란?](./Java/what_stream.md)
+  * [스트림의 활용](./Java/스트림활용.md)
+  * [람다란?](./Java/lamda.md)
+
 
 ## Spring
 
