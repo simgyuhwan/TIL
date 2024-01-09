@@ -9,6 +9,13 @@ Today I Learned
   * [Garbage Collection Advanced](./Java/가비지컬렉션_고급.md)
   * [Garbage Collection Selection Guide](./Java/가비지컬렉션_선택.md)
 
+## Spring
+
+* Spring Cloud
+
+  * [Eureka Server & Client(Discovery Server)](./Spring/eureka_server.md)
+  * [Api Gateway](./Spring/api_gateway.md)
+
 ## MySQL
 
 * Real MySQL
