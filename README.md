@@ -26,9 +26,9 @@ Today I Learned
   * [성능 최적화](./Spring/Optimization.md)
   * [고급 매핑](./Spring/고급_매핑.md)
 
-## MySQL
+## DB
 
-* Real MySQL
+* MySQL
   
   * [내장 함수](./MySQL/내장함수.md)
   * [SELECT Optimization](./MySQL/SELECT_최적화.md)
