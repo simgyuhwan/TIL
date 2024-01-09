@@ -16,7 +16,7 @@
 	"event-id" : 0,
 	"event-type" : "lead-initialized",
 	"first-name" : "Casey",
-	"last-name" : ""David,
+	"last-name" : "David",
 	"phone-number" : "555-2951",
 	"timestamp": "2020-05-20T09:52:55.95Z"
 },
