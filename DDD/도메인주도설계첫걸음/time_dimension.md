@@ -25,7 +25,7 @@
 	"event-id" : 1,
 	"event-type" : "contacted",
 	"first-name" : "Casey",
-	"last-name" : ""David,
+	"last-name" : "David",
 	"phone-number" : "555-2951",
 	"timestamp": "2020-05-20T12:32:08.95Z"
 },
@@ -36,7 +36,6 @@
 	"followup-on" : "2020-05-27T12:32:08.95Z",
 	"timestamp": "2020-05-20T12:32:08.95Z"
 },
-.....
 
 ```
 
