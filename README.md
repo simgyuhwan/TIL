@@ -16,6 +16,16 @@ Today I Learned
   * [Eureka Server & Client(Discovery Server)](./Spring/eureka_server.md)
   * [Api Gateway](./Spring/api_gateway.md)
 
+* JPA
+
+  * [칼럼에 기본값 넣기](./Spring/컬럼_기본값.md)
+  * [fetch join](./Spring/fetch_join.md)
+  * [경로 표현식](./Spring/경로표현식.md)
+  * [영속성 컨택스트 & OSIV](./Spring/영속성컨택스트.md)
+  * [Collection](./Spring/Collection.md)
+  * [성능 최적화](./Spring/Optimization.md)
+  * [고급 매핑](./Spring/고급_매핑.md)
+
 ## MySQL
 
 * Real MySQL
