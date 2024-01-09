@@ -1,0 +1,34 @@
+## Serial GC
+
+가장 간단하고 오래된 GC로 Young 영역과 Old 영역을 차례로 정리한다. **단일 스레드**로 처리하기 때문에 **싱글 코어이고 메모리가 적은 환경에** 사용하면 적합하다. (100MB 미만의 힙 크기 권장)
+
+## Parallel GC
+
+Serial GC와 비슷하지만 단일 스레드인 Serial GC와 다르게 여러 스레드를 이용해서 GC를 병렬로 수집한다. 처리량을 높일 수 있지만 사용되는 스레드만큼 가용 스레드와 CPU 사용량이 줄어든다. **처리량이 중요한 서버 애플리케이션**에 적합하다.
+
+## CMS(Concurrent Mark Sweep)
+
+Young 영역은 parallel GC와 같이 병렬로 수집하고, Old 영역은 CMS 알고리즘을 사용해서 정리한다. STW 시간을 줄일 수 있으나 압축과 정리하는 단계가 없기 때문에 메모리 단편화 문제가 발생한다. 또 CPU 자원을 많이 사용하며 더이상 여유 공간이 없다면 Parallel GC로 처리한다. 주로 **응답성이 중요한 대화형 애플리케이션**에 적합하다.
+
+## G1(Garbage First)
+
+Young 영역과 Old 영역을 동일한 크기로 나누고, 가장 메모리 회수 효율이 높은 공간부터 회수한다. 이렇게하면 GC 대상 범위와 시간을 줄일 수 있게 된다. 또 GC를 하면서 압축을 하기 때문에 메모리 단편화 문제도 해결된다. 자바 9부터 기본 GC로 사용된다. 하지만 힙의 용량이 작으면 GC가 자주 발생하기 때문에 **대용량 힙을 가진 애플리케이션에 적합하다7**
+
+## GC 사용 옵션
+
+`-XX:+UseSerialGC:` Serial GC를 사용
+`-XX:+UseParallelGC`: Parallel GC를 사용
+`-XX:+UseConcMarkSweepGC`: CMS GC를 사용
+`-XX:+UseG1GC`: G1 GC를 사용
+
+`-Xms`: JVM 시작 시 힙 영역 크기
+`-Xmx`: 최대 힙 영역 크기
+`-XX:NewRatio`: New영역과 Old 영역의 비율
+`-XX:NewSize`: New영역의 크기
+`-XX:SurvivorRatio`: Eden 영역과 Survivor 영역의 비율
+
+### 참조
+
+https://d2.naver.com/helloworld/1329
+
+https://velog.io/@gehwan96/Garbage-CollectionGC-2#zgc
