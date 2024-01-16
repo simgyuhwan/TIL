@@ -29,6 +29,7 @@ Today I Learned
   * [Collection](./Spring/Collection.md)
   * [성능 최적화](./Spring/Optimization.md)
   * [고급 매핑](./Spring/고급_매핑.md)
+  * [Hibernate 성능 튜닝](./Spring/JPA/hibernate.md)
 
 ## DB
 
