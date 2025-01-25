@@ -58,3 +58,9 @@ Today I Learned
    * [전술적 설계 - 복잡한 비즈니스 로직](./DDD/도메인주도설계첫걸음/complex_business_logic.md)
    * [전술적 설계 - 시간 차원의 모델링](./DDD/도메인주도설계첫걸음/time_dimension.md)
    * [전술적 설계 - 아키텍처 패턴](./DDD/도메인주도설계첫걸음/architecture.md)
+
+## Kubernetes
+
+  * 기본 개념
+
+      * [Pod 생성 흐름도(기본)](./fast/pod_create_flow.png)
